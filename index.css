@@ -1,0 +1,56 @@
+body{
+    background-color:rgba(201, 238, 229, 0.95)
+}
+@media (min-width:350px) and (max-width:600px){
+    .container{
+        width:80vw;
+        height:70vh;
+        padding-top:2vh;
+    }
+    img{
+        width:60vw;
+        height:60vw;
+    }
+}
+@media (min-width:600px) and (max-width:1000px){
+    .container{
+        width:50vw;
+        height:65vh;
+        padding-top:2vh;
+    }
+    img{
+        width:45vw;
+        height:45vw;
+    }
+}
+@media (min-width:1000px){
+    .container{
+        width:30vw;
+        height:40vw;
+        padding-top:2vh;
+    }
+    img{
+        width:25vw;
+        height:25vw;
+    }
+}
+.container{
+    background-color:hsl(0, 0%, 100%);
+    margin:5vh auto;
+    border-radius: 10px 10px 10px 10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+}
+p:first-of-type{
+    font-size:21px;
+    font-weight:bold;
+    font-family:"georgia";
+    color:rgba(19, 41, 67,0.9);
+}
+p{
+    color:rgba(136, 142, 144, 0.8);
+    text-align:center;
+    width:80%;
+}
